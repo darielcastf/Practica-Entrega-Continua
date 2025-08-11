@@ -6,7 +6,7 @@ on:
       - main
 
 env:
-  IMAGE_NAME: ${{ secrets.DOCKER_USERNAME }}/miapp  # <- cambia 'miapp' si tu repo se llama distinto
+  IMAGE_NAME: ${{ secrets.DOCKER_USERNAME }}/Practica-Entrega-Continua
 
 jobs:
   build-and-deploy:
