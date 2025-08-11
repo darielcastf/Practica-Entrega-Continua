@@ -6,7 +6,7 @@ on:
       - main
 
 env:
-  IMAGE_NAME: ${{ secrets.DOCKER_USERNAME }}/Practica-Entrega-Continua
+  IMAGE_NAME: ${{ secrets.DOCKER_USERNAME }}/practica-entrega-continua  # usa minúsculas
 
 jobs:
   build-and-deploy:
